@@ -53,8 +53,8 @@
 		3B8B846118D27CAD00F35F00 /* SHDataMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHDataMapTests-Info.plist"; sourceTree = "<group>"; };
 		3B8B846318D27CAD00F35F00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B8B846518D27CAD00F35F00 /* SHDataMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHDataMapTests.m; sourceTree = "<group>"; };
-		3B8B846F18D27CF700F35F00 /* SHDataMapContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDataMapContoller.h; sourceTree = "<group>"; };
-		3B8B847018D27CF700F35F00 /* SHDataMapContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHDataMapContoller.m; sourceTree = "<group>"; };
+		3B8B846F18D27CF700F35F00 /* SHDataMapContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHDataMapContoller.h; path = ../../SHDataMapContoller.h; sourceTree = "<group>"; };
+		3B8B847018D27CF700F35F00 /* SHDataMapContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHDataMapContoller.m; path = ../../SHDataMapContoller.m; sourceTree = "<group>"; };
 		3B8B847318D2896E00F35F00 /* School.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
 		3B8B847418D2896E00F35F00 /* School.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
 		3B8B847718D28C1200F35F00 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -479,6 +479,7 @@
 				3B8B846B18D27CAD00F35F00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B8B846C18D27CAD00F35F00 /* Build configuration list for PBXNativeTarget "SHDataMapTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +488,7 @@
 				3B8B846E18D27CAD00F35F00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
