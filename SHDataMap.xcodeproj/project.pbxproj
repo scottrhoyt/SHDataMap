@@ -21,6 +21,8 @@
 		3B8B846418D27CAD00F35F00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B8B846218D27CAD00F35F00 /* InfoPlist.strings */; };
 		3B8B846618D27CAD00F35F00 /* SHDataMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8B846518D27CAD00F35F00 /* SHDataMapTests.m */; };
 		3B8B847118D27CF700F35F00 /* SHDataMapContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8B847018D27CF700F35F00 /* SHDataMapContoller.m */; };
+		3B8B847518D2896E00F35F00 /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8B847418D2896E00F35F00 /* School.m */; };
+		3B8B847918D28C1200F35F00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8B847818D28C1200F35F00 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		3B8B846518D27CAD00F35F00 /* SHDataMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHDataMapTests.m; sourceTree = "<group>"; };
 		3B8B846F18D27CF700F35F00 /* SHDataMapContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDataMapContoller.h; sourceTree = "<group>"; };
 		3B8B847018D27CF700F35F00 /* SHDataMapContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHDataMapContoller.m; sourceTree = "<group>"; };
+		3B8B847318D2896E00F35F00 /* School.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
+		3B8B847418D2896E00F35F00 /* School.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
+		3B8B847718D28C1200F35F00 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B8B847818D28C1200F35F00 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 		3B8B843D18D27CAC00F35F00 /* SHDataMap */ = {
 			isa = PBXGroup;
 			children = (
+				3B8B847218D2894200F35F00 /* Model */,
 				3B8B844618D27CAD00F35F00 /* SHAppDelegate.h */,
 				3B8B844718D27CAD00F35F00 /* SHAppDelegate.m */,
 				3B8B844918D27CAD00F35F00 /* Main_iPhone.storyboard */,
@@ -119,6 +126,8 @@
 				3B8B843E18D27CAC00F35F00 /* Supporting Files */,
 				3B8B846F18D27CF700F35F00 /* SHDataMapContoller.h */,
 				3B8B847018D27CF700F35F00 /* SHDataMapContoller.m */,
+				3B8B847718D28C1200F35F00 /* ViewController.h */,
+				3B8B847818D28C1200F35F00 /* ViewController.m */,
 			);
 			path = SHDataMap;
 			sourceTree = "<group>";
@@ -150,6 +159,15 @@
 				3B8B846218D27CAD00F35F00 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B8B847218D2894200F35F00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B8B847318D2896E00F35F00 /* School.h */,
+				3B8B847418D2896E00F35F00 /* School.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +271,8 @@
 				3B8B847118D27CF700F35F00 /* SHDataMapContoller.m in Sources */,
 				3B8B844418D27CAD00F35F00 /* main.m in Sources */,
 				3B8B844818D27CAD00F35F00 /* SHAppDelegate.m in Sources */,
+				3B8B847518D2896E00F35F00 /* School.m in Sources */,
+				3B8B847918D28C1200F35F00 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
